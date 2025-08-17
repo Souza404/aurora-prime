@@ -5,8 +5,7 @@ Este projeto consiste no desenvolvimento de um **chatbot em Python**, integrado 
 
 O chatbot tem como objetivo **automatizar o atendimento ao usuário**, oferecendo:  
 - Uma **base de conhecimento própria** com perguntas e respostas frequentes.  
-- Capacidade de manter **contexto entre mensagens** (memória de sessão).  
-- **Tom de voz consultivo e formal**, simulando o atendimento de um corretor.  
+- Capacidade de manter **contexto entre mensagens** (memória de sessão).   
 
 ---
 
