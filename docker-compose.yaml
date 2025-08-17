@@ -1,15 +1,15 @@
 services:
   evolution-api:
     container_name: evolution_api
-    image: atendai/evolution-api:v2.1.1
+    image: evoapicloud/evolution-api:v2.3.1
     depends_on:
       - redis
-    restart: always
+    restart: no
     ports:
       - "8080:8080"
     environment:
       - AUTHENTICATION_API_KEY=xwEDTCrl859jgllKO0bvjKBmbfYbw77k
-      - CONFIG_SESSION_PHONE_VERSION=2.3000.1023204200
+      - CONFIG_SESSION_PHONE_VERSION=2.3000.1020885143
       - DATABASE_ENABLED=true
       - DATABASE_PROVIDER=postgresql
       - DATABASE_CONNECTION_URI=postgresql://postgres:postgres@postgres:5432/postgres
