@@ -31,7 +31,7 @@ vector_store = FAISS.from_documents(documents, embeddings)
 retrieval = vector_store.as_retriever()
 
 
-llm = ChatOpenAI(temperature=0)
+llm = ChatOpenAI()
 
 # --- Memória por sessão (RAM; para produção, trocar por Redis/DB) ---
 _session_store = {} 
